@@ -68,7 +68,6 @@ xlabel('$x$','Interpreter','latex','FontSize',12)
 ylabel('$u_t(x)$','Interpreter','latex','FontSize',12)
 legend('Interpreter','latex','FontSize',9)
 
-
 % xfront vs time
 subplot(2,2,3)
 plot(tspan,xfront,'.','DisplayName','Solution')
