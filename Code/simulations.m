@@ -37,7 +37,7 @@ saveas(gcf,'../Data & Plots/Figure_1.png')
 
 %% 2nd block: Specific case - waveform + evaluating c (c > 0)
 u3 = 2 + sqrt(2);  % Reaction parameter
-tspan = 0:0.02:10; % Temporal span
+tspan = 0:0.02:2; % Temporal span
 u0x = u0x_4;       % Initial condition
 
 % Solve PDE
