@@ -27,17 +27,17 @@ For a full account of the simulations and analysis, including a more rigorous an
 
 ## Data and Plots
 
-Both the relavant data from the simulations and the corresponding figures shown in the [*included paper*](Time_Dependent_Ginzburg_Landau_Equation___Traveling_Front.pdf) are included in the [*Data and Plots*](Data & Plots/) directory.
+Both the relavant data from the simulations and the corresponding figures shown in the [*included paper*](Time_Dependent_Ginzburg_Landau_Equation___Traveling_Front.pdf) are included in the [*Data_&_Plots*](Data_&_Plots/) directory.
 
 Here are 2 figures:
 
 <figure>
-   <img src="Data & Plots/Figure_2.png">
-   <figcaption> 1 Adaptor - Metabolic Strategy distributions (Tip: to simulate a single species, use 2 identical species) </figcaption>
+   <img src="Data_&_Plots/Figure_2.png" width="437.5" height="328">
+   <figcaption> Dynamics of the TDGLE, computing the velocity c of the traveling front </figcaption>
 </figure>
 
 <figure>
-   <img src="Data & Plots/Figure_4.png">
-   <figcaption> Adaptor VS Non-Adaptor - Invasibility Character </figcaption>
+   <img src="Data_&_Plots/Figure_4.png" width="437.5" height="189">
+   <figcaption> Area rule (i.e. Maxwell’s rule) and convergence times </figcaption>
 </figure>
 
