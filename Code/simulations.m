@@ -31,8 +31,8 @@ xlabel('$u$','Interpreter','latex','FontSize',12)
 ylabel('$f(u)$','Interpreter','latex','FontSize',12)
 legend('Location','northwest','Interpreter','latex','FontSize',9)
 
-saveas(gcf,'../Data & Plots/Figure_1.fig')
-saveas(gcf,'../Data & Plots/Figure_1.png')
+saveas(gcf,'../Data_&_Plots/Figure_1.fig')
+saveas(gcf,'../Data_&_Plots/Figure_1.png')
 
 
 %% 2nd block: Specific case - waveform + evaluating c (c > 0)
@@ -94,9 +94,9 @@ ylabel('$u(\xi_t - \xi_0)$','Interpreter','latex','FontSize',12)
 legend('Interpreter','latex','FontSize',9)
 
 % Save
-saveas(gcf,'../Data & Plots/Figure_2.fig')
-saveas(gcf,'../Data & Plots/Figure_2.png')
-save('../Data & Plots/Figure_2.mat')
+saveas(gcf,'../Data_&_Plots/Figure_2.fig')
+saveas(gcf,'../Data_&_Plots/Figure_2.png')
+save('../Data_&_Plots/Figure_2.mat')
 
 
 %% 3rd block: Invariance of solution at t -> inf to initial condition
@@ -150,9 +150,9 @@ ylabel('$u(\xi_{t = 5} - \xi_0)$','Interpreter','latex','FontSize',12)
 legend('Interpreter','latex','FontSize',9)
 
 % Save
-saveas(gcf,'../Data & Plots/Figure_3.fig')
-saveas(gcf,'../Data & Plots/Figure_3.png')
-save('../Data & Plots/Figure_3.mat')
+saveas(gcf,'../Data_&_Plots/Figure_3.fig')
+saveas(gcf,'../Data_&_Plots/Figure_3.png')
+save('../Data_&_Plots/Figure_3.mat')
 
 
 %% 4th block:  Verification of the 'area rule' and convergence
@@ -220,7 +220,7 @@ xlabel('$u_3$','Interpreter','latex','FontSize',12)
 ylabel('$\tau(u_3)$','Interpreter','latex','FontSize',12)
 
 % Save
-saveas(gcf,'../Data & Plots/Figure_4.fig')
-saveas(gcf,'../Data & Plots/Figure_4.png')
-save('../Data & Plots/Figure_4.mat')
+saveas(gcf,'../Data_&_Plots/Figure_4.fig')
+saveas(gcf,'../Data_&_Plots/Figure_4.png')
+save('../Data_&_Plots/Figure_4.mat')
 
