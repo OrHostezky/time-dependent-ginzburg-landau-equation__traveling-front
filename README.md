@@ -12,8 +12,32 @@ Due to the fact that there are two stable phases in the infinite problem, a comp
 
 The dynamics were numerically solved for using *MATLAB*'s built-in PDE solver `pdepe` solver, which discretizes space and integrates the ODEs resulting from this spatial discretization to obtain the approximate solutions at the desired times.
 
-For a full account of the simulation and analysis, including a more rigorous and detailed account of the analytical process and intuition behind the equation, take a look at the [*included paper*](Time_Dependent_Ginzburg_Landau_Equation___Traveling_Front.pdf).
+For a full account of the simulations and analysis, including a more rigorous and detailed account of the analytical process and intuition behind the equation, take a look at the [*included paper*](Time_Dependent_Ginzburg_Landau_Equation___Traveling_Front.pdf).
+
 
 ## Code
 
+> [!NOTE]
+> **For a script-specific description, check each script directly.**
+
+* In [`simulations.m`](Code/simulations.m) you can find the general simulation scheme, which implements all 3 different simulations, and plots the relevant figures.
+
+* [`fit_front.m`](Code/fit_front.m) fits the dynamics of the traveling front, returning the asymptotic wavefront velocity and convergence time of the front to the fit.
+
+
 ## Data and Plots
+
+Both the relavant data from the simulations and the corresponding figures shown in the [*included paper*](Time_Dependent_Ginzburg_Landau_Equation___Traveling_Front.pdf) are included in the [*Data and Plots*](Data & Plots/) directory.
+
+Here are 2 figures:
+
+<figure>
+   <img src="Data & Plots/Figure_2.png">
+   <figcaption> 1 Adaptor - Metabolic Strategy distributions (Tip: to simulate a single species, use 2 identical species) </figcaption>
+</figure>
+
+<figure>
+   <img src="Data & Plots/Figure_4.png">
+   <figcaption> Adaptor VS Non-Adaptor - Invasibility Character </figcaption>
+</figure>
+
