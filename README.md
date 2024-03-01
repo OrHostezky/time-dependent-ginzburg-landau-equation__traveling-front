@@ -32,12 +32,12 @@ Both the relavant data from the simulations and the corresponding figures shown 
 Here are 2 figures:
 
 <figure>
-   <img src="Data_&_Plots/Figure_2.png" width="437.5" height="328">
+   <img src="Data_&_Plots/Figure_2.png" width="525" height="393.6">
    <figcaption> Dynamics of the TDGLE, computing the velocity c of the traveling front </figcaption>
 </figure>
 
 <figure>
-   <img src="Data_&_Plots/Figure_4.png" width="437.5" height="189">
+   <img src="Data_&_Plots/Figure_4.png" width="525" height="226.8">
    <figcaption> Area rule (i.e. Maxwell’s rule) and convergence times </figcaption>
 </figure>
 
