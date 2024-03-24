@@ -12,7 +12,7 @@ Due to the fact that there are two stable phases in the infinite problem, a comp
 
 The dynamics were numerically solved for using *MATLAB*'s built-in PDE solver `pdepe` solver, which discretizes space and integrates the ODEs resulting from this spatial discretization to obtain the approximate solutions at the desired times.
 
-For a full account of the simulations and analysis, including a more rigorous and detailed account of the analytical process and intuition behind the equation, take a look at the [*included paper*](Time_Dependent_Ginzburg_Landau_Equation___Traveling_Front.pdf).
+For a full account of the simulations and analysis, including a more rigorous and detailed account of the analytical process and intuition behind the equation, take a look at the [*included paper*](Time-Dependent-Ginzburg-Landau-Equation__Traveling-Front.pdf).
 
 
 ## Code
@@ -29,7 +29,7 @@ For a full account of the simulations and analysis, including a more rigorous an
 
 ## Data and Plots
 
-Both the relavant data from the simulations and the corresponding figures shown in the [*included paper*](Time_Dependent_Ginzburg_Landau_Equation___Traveling_Front.pdf) are included in the [*Data_&_Plots*](Data_&_Plots/) directory.
+Both the relavant data from the simulations and the corresponding figures shown in the [*included paper*](Time-Dependent-Ginzburg-Landau-Equation__Traveling-Front.pdf) are included in the [*Data_&_Plots*](Data_&_Plots/) directory.
 
 Here are 2 figures:
 
